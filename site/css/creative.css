@@ -150,10 +150,6 @@ p {
     color: rgba(255,255,255,.7);
 }
 
-section {
-    padding: 100px 0;
-}
-
 aside {
     padding: 50px 0;
 }
@@ -175,7 +171,7 @@ aside {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
-    color: #37ace0;
+    color: black;
 }
 
 /* .navbar-default .navbar-header .navbar-brand:hover, */
@@ -210,6 +206,10 @@ aside {
 @media(min-width:768px) {
     header {
         background-image: url(../img/key.jpg);
+    }
+
+    section {
+        padding: 100px 0;
     }
 
     .navbar-default {
@@ -345,6 +345,10 @@ header .header-content .header-content-inner p {
 @media(max-width:768px) {
     header {
         background-image: url(../img/key-small.jpg);
+    }
+
+    section {
+        padding: 10px 0;
     }
 }
 
